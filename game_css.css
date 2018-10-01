@@ -1,54 +1,64 @@
-        body
-		{
-			margin: 0;
-			padding: 0;
-			background: #00707f
-		}
-		#clouds
-		{
-			height: 25vh;
-		    background: #87ceeb
-		}
-		#cloud1
-		{
-			height: 20vmin
-		}
-		#cloud2
-		{
-			height: 20vmin
-		}
-		#letter
-		{
-			background: yellow;
-			width:10vw;
-			align-items: center;
-			text-align: center;
-			border: 5px solid black;
-			font-size: 5vmin
-		}
-		#score
-		{
-			background: yellow;
-			align-items: center;
-			text-align: center; 
-			border: 5px solid black;
-			font-size: 5vmin
-		}
-		#restart
-		{
-			background: yellow;
-			align-items: center;
-			text-align: center; 
-			border: 5px solid black;
-			font-size: 5vmin;
-			visibility: hidden;
-		}
-		#swimmer
-		{
-			width: 25vmin
-		}
-		#blood
-		{
-			width: 25vmin;
-			visibility: hidden;
-		}
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #00707f
+}
+#clouds
+{
+	height: 25vh;
+    background: #87ceeb
+}
+#cloud1
+{
+	height: 20vmin
+}
+#cloud2
+{
+	height: 20vmin
+}
+#letter
+{
+	background: yellow;
+	width:10vw;
+	align-items: center;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 0.8rem;
+	font-size: 5vmin
+}
+#score
+{
+	background: yellow;
+	align-items: center;
+	text-align: center; 
+	border: 5px solid black;
+	border-radius: 0.8rem;
+	font-size: 5vmin
+}
+#restart
+{
+	background: yellow;
+	align-items: center;
+	text-align: center; 
+	border: 5px solid black;
+	border-radius: 0.8rem;
+	font-size: 5vmin;
+	visibility: hidden;
+}
+#swimmer
+{
+	width: 25vmin
+}
+#blood
+{
+	width: 25vmin;
+	visibility: hidden;
+}
+.croc {
+	height: 7vmin;
+	margin-top: 5vh;
+}
+.croc.first {
+	margin-top: 30vh;
+}
